@@ -28,6 +28,8 @@ def main():
 
             st.subheader("i will show you the bit of stats")
             st.write(data.describe())
+
+            
         except Exception as e:
             print(e)
 
